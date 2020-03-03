@@ -1,7 +1,8 @@
 {
-    "name": "beyondcode/laravel-websockets",
-    "description": "An easy to use WebSocket server",
+    "name": "quadram/laravel-websockets",
+    "description": "An easy to use WebSocket server (Forked because the original project needs to update some dependencies)",
     "keywords": [
+        "quadram",
         "beyondcode",
         "laravel-websockets"
     ],
@@ -36,7 +37,7 @@
         "pusher/pusher-php-server": "~3.0 || ~4.0",
         "react/dns": "^1.1",
         "symfony/http-kernel": "~4.0",
-        "symfony/psr-http-message-bridge": "^1.1"
+        "symfony/psr-http-message-bridge": ">=1.1"
     },
     "require-dev": {
         "mockery/mockery": "^1.2",
